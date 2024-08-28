@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-28T18:05:45 IST" name="Suite" finished-at="2024-08-28T18:06:15 IST" duration-ms="30090">
+    <groups>
+      <group name="Master">
+        <method signature="AboutSection.aboutpopup()[pri:0, instance:Testcases.AboutSection@478190fc]" name="aboutpopup" class="Testcases.AboutSection"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="Login_Page.verify_account_registration()[pri:0, instance:Testcases.Login_Page@222545dc]" name="verify_account_registration" class="Testcases.Login_Page"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2024-08-28T18:05:45 IST" name="loginpage" finished-at="2024-08-28T18:06:15 IST" duration-ms="30090">
+      <class name="Testcases.AboutSection">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.AboutSection@478190fc]" started-at="2024-08-28T18:06:03 IST" name="setup" finished-at="2024-08-28T18:06:12 IST" duration-ms="9188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="aboutpopup()[pri:0, instance:Testcases.AboutSection@478190fc]" started-at="2024-08-28T18:06:12 IST" name="aboutpopup" finished-at="2024-08-28T18:06:15 IST" duration-ms="3084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutpopup -->
+      </class> <!-- Testcases.AboutSection -->
+      <class name="Testcases.Login_Page">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Login_Page@222545dc]" started-at="2024-08-28T18:05:45 IST" name="setup" finished-at="2024-08-28T18:06:00 IST" duration-ms="15044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_account_registration()[pri:0, instance:Testcases.Login_Page@222545dc]" started-at="2024-08-28T18:06:00 IST" name="verify_account_registration" finished-at="2024-08-28T18:06:03 IST" duration-ms="2344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_registration -->
+      </class> <!-- Testcases.Login_Page -->
+    </test> <!-- loginpage -->
+  </suite> <!-- Suite -->
+</testng-results>

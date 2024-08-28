@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+	
+	<listeners>
+	<listener class-name="Utilities.ExtentReportManager"/>
+	</listeners>
+	
+	
+	 <test thread-count="5" name="loginpage">
+	<parameter name="browser" value="chrome"/>
+    <classes>
+       <class name="Testcases.Login_Page"/> 
+       <class name="Testcases.AboutSection"/>
+
+    </classes>
+    
+    
+    
+    
+     <!--<test name="About section">
+		<classes>
+			<class name="Testcases.AboutSection"/>
+		</classes>-->
+
+  
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
